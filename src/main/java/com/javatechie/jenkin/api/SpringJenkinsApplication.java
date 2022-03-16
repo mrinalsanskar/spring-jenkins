@@ -15,7 +15,7 @@ public class SpringJenkinsApplication {
 		return "Maine change kiya code jenkins build test karne ko";
 	}
 
-	public static void main(String[] args) {
+	public static  main(String[] args) {
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
