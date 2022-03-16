@@ -14,6 +14,11 @@ public class SpringJenkinsApplication {
 	public String message() {
 		return "Maine change kiya code jenkins build test karne ko";
 	}
+	
+	@GetMapping("/pong")
+	public String message2() {
+		return "Mazedaar cheez hai yaar ye jenkins";
+	}
 
 	public static  void main(String[] args) {
 		SpringApplication.run(SpringJenkinsApplication.class, args);
