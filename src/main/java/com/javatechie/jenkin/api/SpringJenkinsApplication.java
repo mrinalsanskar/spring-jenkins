@@ -11,7 +11,7 @@ public class SpringJenkinsApplication {
 
 
 	@GetMapping("/ping")
-	public message() {
+	public String message() {
 		return "Maine change kiya code jenkins build test karne ko";
 	}
 
