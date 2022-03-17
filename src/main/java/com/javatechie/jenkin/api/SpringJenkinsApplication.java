@@ -19,6 +19,11 @@ public class SpringJenkinsApplication {
 	public String message2() {
 		return "Mazedaar cheez hai yaar ye jenkins";
 	}
+	
+	@GetMapping("/pung")
+	public String message3() {
+		return "CI/CD toh aasan hai bro!";
+	}
 
 	public static  void main(String[] args) {
 		SpringApplication.run(SpringJenkinsApplication.class, args);
